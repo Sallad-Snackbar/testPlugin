@@ -1,0 +1,15 @@
+{
+    "name": "Alt1 Test Plugin",
+    "description": "A barebones Alt1 plugin for testing.",
+    "url": "index.html",
+    "icon": "icon.png",
+    "permissions": {
+        "screen": false,
+        "overlay": false,
+        "gameData": false,
+        "alt1Events": false
+    },
+    "debug": true,
+    "minWidth": 200,
+    "minHeight": 100
+}

@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #f0f0f0; /* Light grey text */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin: 0; /* Remove default body margin */
+    overflow: hidden; /* Important for Alt1 window sizing */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Make body at least viewport height */
+}
+
+h1 {
+    color: #ffd700; /* Gold color */
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 0.9em;
+    text-align: center;
+}
